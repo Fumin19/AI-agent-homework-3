@@ -1,0 +1,442 @@
+[
+  {
+    "id": "m1",
+    "text": "A quadratic equation ax^2 + bx + c = 0 has roots (-b ± sqrt(b^2 - 4ac)) / (2a)."
+  },
+  {
+    "id": "m2",
+    "text": "Completing the square rewrites ax^2 + bx + c into a(x + b/2a)^2 + (4ac - b^2)/4a."
+  },
+  {
+    "id": "m3",
+    "text": "The derivative of sin x is cos x; of cos x is -sin x."
+  },
+  {
+    "id": "m4",
+    "text": "The derivative of e^x is e^x; of ln x is 1/x for x>0."
+  },
+  {
+    "id": "m5",
+    "text": "The product rule: (fg)' = f'g + fg'. The chain rule: (f∘g)' = (f'∘g)·g'."
+  },
+  {
+    "id": "m6",
+    "text": "The definite integral accumulates signed area; Fundamental Theorem: ∫_a^b f = F(b) - F(a)."
+  },
+  {
+    "id": "m7",
+    "text": "Mean ≥ Median ≥ Mode for right-skewed distributions; reversed for left-skewed."
+  },
+  {
+    "id": "m8",
+    "text": "Variance is the mean of squared deviations from the mean; std dev is its square root."
+  },
+  {
+    "id": "m9",
+    "text": "A vector space requires closure, associativity, identity, inverses, distributivity, and scalar compatibility."
+  },
+  {
+    "id": "m10",
+    "text": "The dot product a·b = |a||b|cosθ; it’s maximal when vectors align."
+  },
+  {
+    "id": "m11",
+    "text": "A matrix is invertible iff det(A) ≠ 0 and columns are linearly independent."
+  },
+  {
+    "id": "m12",
+    "text": "Rank of a matrix equals the dimension of its column space."
+  },
+  {
+    "id": "m13",
+    "text": "Eigenvalues λ satisfy det(A - λI) = 0; eigenvectors solve (A - λI)v = 0."
+  },
+  {
+    "id": "m14",
+    "text": "The gradient ∇f points in the direction of steepest ascent."
+  },
+  {
+    "id": "m15",
+    "text": "A convex function’s epigraph is a convex set; local minima are global."
+  },
+  {
+    "id": "m16",
+    "text": "Bayes’ rule: P(A|B) = P(B|A)P(A)/P(B)."
+  },
+  {
+    "id": "m17",
+    "text": "The central limit theorem: sums of i.i.d. variables approach normality."
+  },
+  {
+    "id": "m18",
+    "text": "L1 regularization promotes sparsity; L2 shrinks weights smoothly."
+  },
+  {
+    "id": "m19",
+    "text": "Logistic function σ(x) = 1/(1+e^{-x}) maps ℝ to (0,1)."
+  },
+  {
+    "id": "m20",
+    "text": "Softmax converts scores to probabilities via exp and normalization."
+  },
+  {
+    "id": "m21",
+    "text": "Cauchy–Schwarz inequality: |a·b| ≤ ||a||·||b|| with equality for colinear vectors."
+  },
+  {
+    "id": "m22",
+    "text": "Triangle inequality: ||a + b|| ≤ ||a|| + ||b||."
+  },
+  {
+    "id": "m23",
+    "text": "Probability mass functions sum to 1; densities integrate to 1."
+  },
+  {
+    "id": "m24",
+    "text": "The expected value is linear: E[aX + bY] = aE[X] + bE[Y]."
+  },
+  {
+    "id": "m25",
+    "text": "Covariance measures joint variability; correlation is normalized covariance."
+  },
+  {
+    "id": "m26",
+    "text": "The harmonic mean is appropriate for rates; geometric mean for growth factors."
+  },
+  {
+    "id": "m27",
+    "text": "A sequence converges if it approaches a finite limit as n→∞."
+  },
+  {
+    "id": "m28",
+    "text": "Taylor series approximates smooth functions near a point via derivatives."
+  },
+  {
+    "id": "m29",
+    "text": "A basis of a vector space is a linearly independent spanning set."
+  },
+  {
+    "id": "m30",
+    "text": "LU decomposition factors A into lower and upper triangular matrices."
+  },
+  {
+    "id": "ph1",
+    "text": "Newton’s 2nd law: F = m·a; momentum p = m·v; impulse changes momentum."
+  },
+  {
+    "id": "ph2",
+    "text": "Work W = ∫ F·dx; kinetic energy K = ½mv^2; potential energy depends on position."
+  },
+  {
+    "id": "ph3",
+    "text": "Power is the rate of doing work: P = dW/dt; for electricity, P = VI."
+  },
+  {
+    "id": "ph4",
+    "text": "Ohm’s law: V = IR; series resistances add, parallel add via reciprocals."
+  },
+  {
+    "id": "ph5",
+    "text": "Capacitive reactance X_C = 1/(ωC); inductive reactance X_L = ωL."
+  },
+  {
+    "id": "ph6",
+    "text": "In AC, RMS voltage V_rms = V_peak/√2 for sine waves."
+  },
+  {
+    "id": "ph7",
+    "text": "Snell’s law: n1 sin θ1 = n2 sin θ2; refraction bends toward higher n."
+  },
+  {
+    "id": "ph8",
+    "text": "Thermodynamics: ΔU = Q − W; entropy tends to increase in isolated systems."
+  },
+  {
+    "id": "ph9",
+    "text": "Blackbody radiation follows Planck’s law; peak wavelength ~ 1/T (Wien’s)."
+  },
+  {
+    "id": "ph10",
+    "text": "Wave speed v = fλ; Doppler shift changes observed frequency with relative motion."
+  },
+  {
+    "id": "ph11",
+    "text": "Photoelectric effect: electrons emitted when photon energy exceeds work function."
+  },
+  {
+    "id": "ph12",
+    "text": "Uncertainty principle: Δx·Δp ≥ ħ/2; measurement disturbs conjugate variables."
+  },
+  {
+    "id": "cs1",
+    "text": "Big-O gives an upper bound on growth; common classes: O(1), O(log n), O(n), O(n log n), O(n^2)."
+  },
+  {
+    "id": "cs2",
+    "text": "Binary search requires a sorted array and runs in O(log n)."
+  },
+  {
+    "id": "cs3",
+    "text": "Quicksort average time O(n log n), worst-case O(n^2); randomized pivot mitigates worst-case."
+  },
+  {
+    "id": "cs4",
+    "text": "Merge sort guarantees O(n log n) and is stable; needs additional memory."
+  },
+  {
+    "id": "cs5",
+    "text": "A hash table provides expected O(1) insert/lookup with a good hash and resizing."
+  },
+  {
+    "id": "cs6",
+    "text": "A heap supports O(log n) push/pop; a binary heap is array-backed."
+  },
+  {
+    "id": "cs7",
+    "text": "A graph can be represented by adjacency lists (sparse) or matrix (dense)."
+  },
+  {
+    "id": "cs8",
+    "text": "Dijkstra finds single-source shortest paths on non-negative weights."
+  },
+  {
+    "id": "cs9",
+    "text": "Bellman–Ford handles negative edges; Floyd–Warshall finds all-pairs shortest paths."
+  },
+  {
+    "id": "cs10",
+    "text": "DFS is good for topological sort; BFS finds shortest paths in unweighted graphs."
+  },
+  {
+    "id": "cs11",
+    "text": "Union–Find (DSU) supports near-constant amortized merges with path compression."
+  },
+  {
+    "id": "cs12",
+    "text": "Dynamic programming solves overlapping subproblems via memoization or tabulation."
+  },
+  {
+    "id": "cs13",
+    "text": "Greedy algorithms make locally optimal choices; correctness requires matroid/greedy-choice property."
+  },
+  {
+    "id": "cs14",
+    "text": "Trie stores strings character by character; useful for prefix queries and autocomplete."
+  },
+  {
+    "id": "cs15",
+    "text": "AVL/Red–Black trees maintain O(log n) operations via balancing."
+  },
+  {
+    "id": "cs16",
+    "text": "Bloom filters are space-efficient with false positives but no false negatives."
+  },
+  {
+    "id": "cs17",
+    "text": "LRU cache evicts least-recently-used entries to bound memory."
+  },
+  {
+    "id": "cs18",
+    "text": "Backtracking explores choices depth-first and prunes on constraints."
+  },
+  {
+    "id": "db1",
+    "text": "Normalization reduces redundancy: 1NF (atomic), 2NF (no partial deps), 3NF (no transitive deps)."
+  },
+  {
+    "id": "db2",
+    "text": "Primary keys uniquely identify rows; foreign keys enforce referential integrity."
+  },
+  {
+    "id": "db3",
+    "text": "Indexes speed reads but slow writes; choose columns used in WHERE/JOIN."
+  },
+  {
+    "id": "db4",
+    "text": "Use EXPLAIN to inspect query plans and find bottlenecks."
+  },
+  {
+    "id": "db5",
+    "text": "Avoid SELECT * in production; select only needed columns to reduce I/O."
+  },
+  {
+    "id": "db6",
+    "text": "Transactions ensure ACID: atomicity, consistency, isolation, durability."
+  },
+  {
+    "id": "db7",
+    "text": "In OLAP, star schemas with fact and dimension tables support analytics."
+  },
+  {
+    "id": "db8",
+    "text": "Use parameterized queries or ORM bindings to prevent SQL injection."
+  },
+  {
+    "id": "net1",
+    "text": "TCP provides reliable, ordered delivery; UDP is connectionless and faster but unreliable."
+  },
+  {
+    "id": "net2",
+    "text": "TLS uses asymmetric crypto to exchange a symmetric session key securely."
+  },
+  {
+    "id": "net3",
+    "text": "DNS resolves names to IP addresses; caching reduces lookup latency."
+  },
+  {
+    "id": "net4",
+    "text": "CIDR notation a.b.c.d/24 gives a prefix length of 24 bits for the network."
+  },
+  {
+    "id": "net5",
+    "text": "HTTP/2 multiplexes streams over one TCP connection; HTTP/3 uses QUIC over UDP."
+  },
+  {
+    "id": "net6",
+    "text": "Latency matters more than bandwidth for small requests; reduce round trips."
+  },
+  {
+    "id": "net7",
+    "text": "Processes have isolated memory; threads share address space within a process."
+  },
+  {
+    "id": "net8",
+    "text": "Context switches are costly; use async I/O to avoid blocking on waits."
+  },
+  {
+    "id": "net9",
+    "text": "Mutexes ensure mutual exclusion; deadlocks require circular wait among resources."
+  },
+  {
+    "id": "net10",
+    "text": "Virtual memory maps pages to physical frames; TLB caches translations."
+  },
+  {
+    "id": "ml1",
+    "text": "Bias–variance tradeoff: overly simple models underfit; overly complex models overfit."
+  },
+  {
+    "id": "ml2",
+    "text": "Train/validation/test splits help estimate generalization; avoid leakage."
+  },
+  {
+    "id": "ml3",
+    "text": "Cross-entropy is standard for classification; MSE for regression."
+  },
+  {
+    "id": "ml4",
+    "text": "Class imbalance requires metrics beyond accuracy (F1, AUROC, PR AUC)."
+  },
+  {
+    "id": "ml5",
+    "text": "Regularization (L1/L2/dropout) controls overfitting by constraining weights."
+  },
+  {
+    "id": "ml6",
+    "text": "Early stopping halts training when validation loss stops improving."
+  },
+  {
+    "id": "ml7",
+    "text": "Gradient descent updates parameters opposite the gradient of loss."
+  },
+  {
+    "id": "ml8",
+    "text": "Batch normalization stabilizes training by normalizing activations."
+  },
+  {
+    "id": "ml9",
+    "text": "Transformers use self-attention to model long-range dependencies."
+  },
+  {
+    "id": "ml10",
+    "text": "Word embeddings map words to vectors capturing semantic similarity."
+  },
+  {
+    "id": "ml11",
+    "text": "k-NN classifies by majority vote among nearest neighbors; choice of k matters."
+  },
+  {
+    "id": "ml12",
+    "text": "Confusion matrix summarizes TP, FP, TN, FN; precision vs recall trade off."
+  },
+  {
+    "id": "web1",
+    "text": "REST uses stateless HTTP with resources identified by URLs; use proper status codes."
+  },
+  {
+    "id": "web2",
+    "text": "Idempotent methods (GET, PUT, DELETE) can be retried safely; POST is not idempotent."
+  },
+  {
+    "id": "web3",
+    "text": "JWTs carry claims; sign (HS/RS) and set short expiry; store refresh tokens securely."
+  },
+  {
+    "id": "web4",
+    "text": "CORS controls which origins can access resources; preflight for complex requests."
+  },
+  {
+    "id": "web5",
+    "text": "Content Delivery Networks cache static assets near users to reduce latency."
+  },
+  {
+    "id": "web6",
+    "text": "Docker images are built in layers; keep them small by minimizing packages."
+  },
+  {
+    "id": "web7",
+    "text": "Containers are ephemeral; persist data via volumes or external stores."
+  },
+  {
+    "id": "web8",
+    "text": "Kubernetes orchestrates containers; Deployment manages replicas and rollouts."
+  },
+  {
+    "id": "web9",
+    "text": "CI/CD automates build, test, deploy; small, frequent releases reduce risk."
+  },
+  {
+    "id": "web10",
+    "text": "Feature flags decouple deploy from release; allow gradual rollouts."
+  },
+  {
+    "id": "misc1",
+    "text": "AC current changes polarity and magnitude over time; DC keeps constant polarity."
+  },
+  {
+    "id": "misc2",
+    "text": "Kirchhoff’s laws: current into a node equals current out; loop voltages sum to zero."
+  },
+  {
+    "id": "misc3",
+    "text": "pH is −log10[H+]; each unit is a tenfold change in acidity."
+  },
+  {
+    "id": "misc4",
+    "text": "Le Chatelier’s principle: a system shifts to oppose imposed changes."
+  },
+  {
+    "id": "misc5",
+    "text": "DNA stores genetic information as sequences of nucleotides A, T, C, G."
+  },
+  {
+    "id": "misc6",
+    "text": "Mitochondria produce ATP via oxidative phosphorylation in the electron transport chain."
+  },
+  {
+    "id": "misc7",
+    "text": "Supply and demand intersect at equilibrium price and quantity."
+  },
+  {
+    "id": "misc8",
+    "text": "Opportunity cost is the value of the next best alternative forgone."
+  },
+  {
+    "id": "misc9",
+    "text": "SMART goals are Specific, Measurable, Achievable, Relevant, Time-bound."
+  },
+  {
+    "id": "misc10",
+    "text": "Pomodoro technique uses short focused sprints with regular breaks to boost productivity."
+  }
+]
